@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
   flex-flow: column;
 
-  .header {
+  .header, .footer {
     display: flex;
     justify-content: center;
     background-color: #eee;
@@ -24,7 +24,6 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 3em;
-    padding: 0 0.5em;
     width: 100%;
     max-width: 50em;
     a {
@@ -35,10 +34,16 @@ body {
         padding-right: 0.5em;
       }
     }
+    .utilities {
+      display: flex;
+    }
   }
 
   main {
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   footer {
@@ -62,7 +67,7 @@ header, footer {
   a {
     display: flex;
     align-items: center;
-    padding: 0 1em;
+    padding: 0 0.5em;
     height: 3em;
     &:hover {
       text-decoration: inherit;

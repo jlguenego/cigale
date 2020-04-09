@@ -12,21 +12,18 @@ body {
   display: flex;
   min-height: 100vh;
   flex-flow: column;
-  padding: 0;
 
   .header,
   .footer {
     display: flex;
     justify-content: center;
     background-color: #eee;
-    padding: 0;
   }
 
   .main {
     flex-grow: 1;
     display: flex;
     justify-content: center;
-    padding: 0;
   }
 
   header {
@@ -61,6 +58,9 @@ body {
       text-align: center;
       @media only screen and (max-width: 768px) {
         font-size: 2em;
+      }
+      div {
+        padding: 0.5em 1em;
       }
 
       button {
@@ -101,10 +101,6 @@ footer {
   }
 }
 
-div {
-  padding: 0.5em 1em;
-}
-
 button {
   padding: 0.5em 1em;
   background: #eee;
@@ -133,5 +129,70 @@ button {
         border-color: #555;
       }
     }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.mobile {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  max-width: 25em;
+}
+
+.separator {
+  position: relative;
+  height: 0;
+
+  border: 0.05em solid #eee;
+  margin: 1em 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  span {
+    position: absolute;
+    display: flex;
+    top: 0;
+    transform: translateY(-50%);
+    background: white;
+    padding: 0.2em 0.5em;
+    color: #ddd;
+  }
+}
+
+form {
+  width: 100%;
+  max-width: 20em;
+  display: flex;
+  flex-flow: column;
+
+  button {
+    margin-top: 1em;
+  }
+}
+
+label {
+  padding: 0 0 0.5em;
+  div {
+    padding: 0 0 0.2em;
+  }
+}
+
+input {
+  padding: 0.5em 1em;
+  border: 0.1em solid #eee;
+  width: 100%;
+  min-width: 19em;
+
+  &::placeholder {
+    color: #ddd;
   }
 }

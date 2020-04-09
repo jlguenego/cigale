@@ -13,12 +13,28 @@ body {
   min-height: 100vh;
   flex-flow: column;
 
+  .header {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+  }
+
   header {
     display: flex;
     align-items: center;
-    background-color: #eee;
+    justify-content: space-between;
     height: 3em;
-    padding: 0.5em;
+    padding: 0 0.5em;
+    width: 100%;
+    max-width: 50em;
+    a {
+      display: flex;
+      align-items: center;
+      img {
+        height: 2.5em;
+        padding-right: 0.5em;
+      }
+    }
   }
 
   main {
@@ -40,4 +56,18 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+header, footer {
+  a {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    height: 3em;
+    &:hover {
+      text-decoration: inherit;
+      background: #ddd;
+    }
+  }
+  
 }

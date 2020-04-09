@@ -17,6 +17,7 @@ HTML default settings sucks:
 - Form should often be the same things.
 - Mobile first : vertical layout.
 - Responsive menu.
+- Header = site-id + primary menu + utilities
 
 ## Prerequisites
 

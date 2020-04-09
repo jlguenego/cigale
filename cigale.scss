@@ -1,4 +1,43 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column;
+
+  header {
     display: flex;
+    align-items: center;
+    background-color: #eee;
+    height: 3em;
+    padding: 0.5em;
+  }
+
+  main {
+    flex-grow: 1;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    height: 3em;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
 }

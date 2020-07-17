@@ -17,19 +17,22 @@ form {
       font-weight: bold;
     }
 
-    input[type="checkbox"] {
-      display: none;
+    &.row {
+      flex-flow: row;
+      align-items: center;
     }
 
-    input[type="checkbox"] + div {
+    input[type="checkbox"] {
       position: relative;
       display: flex;
-      align-items: center;
-      margin-top: 0.5em;
+      width: 1.5em;
+      height: 1.5em;
+      margin-right: 0.5em;
       &::before {
-        display: inline-flex;
+        visibility: visible;
+        display: flex;
         border: 0.1em solid black;
-        margin-right: 0.5em;
+
         content: " ";
         width: 1.5em;
         height: 1.5em;
@@ -51,21 +54,24 @@ form {
         transform: translate(0.45em, 0.2em) rotate(-45deg);
         visibility: hidden;
       }
-    }
 
-    input[type="checkbox"]:checked + div {
-      &::before {
-        background: #eee;
-      }
-      &::after {
-        visibility: visible;
+      &:checked {
+        &::before {
+          background: #eee;
+        }
+        &::after {
+          visibility: visible;
+        }
       }
     }
   }
 
+  a {
+    margin-top: 1em;
+  }
+
   button {
     width: 100%;
-    margin-top: 1em;
   }
 }
 

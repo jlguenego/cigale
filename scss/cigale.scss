@@ -76,6 +76,9 @@ body {
     align-items: center;
     background-color: #eee;
     height: 3em;
+    a {
+      padding: 0.5em 1em;
+    }
   }
 }
 
@@ -84,20 +87,6 @@ a {
   text-decoration: inherit;
   &:hover {
     text-decoration: underline;
-  }
-}
-
-header,
-footer {
-  a {
-    display: flex;
-    align-items: center;
-    padding: 0 1em;
-    height: 3em;
-    &:hover {
-      text-decoration: inherit;
-      background: #ddd;
-    }
   }
 }
 

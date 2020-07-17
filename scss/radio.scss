@@ -1,0 +1,46 @@
+form label {
+  input[type="radio"] {
+    display: none;
+  }
+
+  input[type="radio"] + div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+    &::before {
+      display: inline-flex;
+      border: 0.1em solid black;
+      border-radius: 50%;
+      margin-right: 0.5em;
+      content: " ";
+      width: 1.5em;
+      height: 1.5em;
+    }
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-flex;
+      border-width: 0.4em;
+      border-style: solid;
+      border-color: black;
+      border-radius: 50%;
+      margin-right: 0.5em;
+      content: " ";
+      width: 0.8em;
+      height: 0.8em;
+      transform: translate(0.35em, 0.35em);
+      visibility: hidden;
+    }
+  }
+
+  input[type="radio"]:checked + div {
+    &::before {
+      background: white;
+    }
+    &::after {
+      visibility: visible;
+    }
+  }
+}

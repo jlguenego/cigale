@@ -3,6 +3,8 @@
 @import "./layout.scss";
 @import "./button.scss";
 @import "./headings.scss";
+@import "./form.scss";
+@import "./radio.scss";
 
 .separator {
   position: relative;
@@ -20,35 +22,6 @@
     transform: translateY(-50%);
     background: white;
     padding: 0.2em 0.5em;
-    color: #ddd;
-  }
-}
-
-form {
-  width: 100%;
-  max-width: 20em;
-  display: flex;
-  flex-flow: column;
-
-  button {
-    margin-top: 1em;
-  }
-}
-
-label {
-  padding: 0 0 0.5em;
-  div {
-    padding: 0 0 0.2em;
-  }
-}
-
-input {
-  padding: 0.5em 1em;
-  border: 0.1em solid #eee;
-  width: 100%;
-  min-width: 19em;
-
-  &::placeholder {
     color: #ddd;
   }
 }

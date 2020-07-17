@@ -11,4 +11,10 @@ form label {
     background-position-x: 100%;
     background-position-y: 0.3em;
   }
+
+  option {
+    appearance: none;
+    -moz-appearance: none;
+    background: #eee;
+  }
 }

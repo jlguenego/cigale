@@ -8,6 +8,11 @@ form {
     display: flex;
     flex-flow: column;
     padding: 0 0 0.5em;
+    &.row {
+      flex-flow: row;
+      align-items: center;
+    }
+
     div {
       padding: 0 0 0.1em;
     }
@@ -15,11 +20,6 @@ form {
     .error {
       height: 1em;
       font-weight: bold;
-    }
-
-    &.row {
-      flex-flow: row;
-      align-items: center;
     }
 
     input[type="checkbox"] {
@@ -78,6 +78,21 @@ form {
 input[type="text"] {
   padding: 0.5em 1em;
   border: 0.1em solid #eee;
+  width: 100%;
+  min-width: 19em;
+
+  &::placeholder {
+    color: #ddd;
+  }
+}
+
+input[type="color"] {
+  appearance: none;
+  cursor: pointer;
+  height: 2.35em;
+  padding: 0.2em 1em;
+  border: 0.1em solid #eee;
+  background: #eee;
   width: 100%;
   min-width: 19em;
 

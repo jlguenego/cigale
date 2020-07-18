@@ -75,7 +75,7 @@ form {
   }
 }
 
-input[type="text"] {
+input:not([type="checkbox"]):not([type="radio"]) {
   padding: 0.5em 1em;
   border: 0.1em solid #eee;
   width: 100%;
@@ -91,12 +91,8 @@ input[type="color"] {
   cursor: pointer;
   height: 2.35em;
   padding: 0.2em 1em;
-  border: 0.1em solid #eee;
-  background: #eee;
-  width: 100%;
-  min-width: 19em;
+}
 
-  &::placeholder {
-    color: #ddd;
-  }
+input[type="range"] {
+  padding: 0.5em 0;
 }

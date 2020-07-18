@@ -20,45 +20,48 @@
     <section class="main">
       <main>
         <h1>Tables</h1>
-        <nav>
-          <button>Refresh</button>
-          <button>Add</button>
-        </nav>
-        <table>
-          <caption hidden>
-            List of articles
-          </caption>
-          <thead>
-            <tr>
-              <th scope="col">Nom</th>
-              <th scope="col">Prix</th>
-              <th scope="col">Quantité</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Screwdriver</td>
-              <td>$3.22</td>
-              <td>129</td>
-            </tr>
-            <tr>
-              <td>Pliers</td>
-              <td>$4.50</td>
-              <td>45</td>
-            </tr>
-            <tr>
-              <td>Lawn mower</td>
-              <td>$225</td>
-              <td>5</td>
-            </tr>
-            <tr>
-              <td>Saw</td>
-              <td>$12.30</td>
-              <td>35</td>
-            </tr>
-          </tbody>
-        </table>
-        <button>Continue</button>
+        <div class="table">
+          <nav>
+            <button>Refresh</button>
+            <button>Add</button>
+          </nav>
+          <table>
+            <caption hidden>
+              List of articles
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Nom</th>
+                <th scope="col">Prix</th>
+                <th scope="col">Quantité</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Screwdriver</td>
+                <td>$3.22</td>
+                <td>129</td>
+              </tr>
+              <tr>
+                <td>Pliers</td>
+                <td>$4.50</td>
+                <td>45</td>
+              </tr>
+              <tr>
+                <td>Lawn mower</td>
+                <td>$225</td>
+                <td>5</td>
+              </tr>
+              <tr class="selected">
+                <td>Saw</td>
+                <td>$12.30</td>
+                <td>35</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <button class="primary">Continue</button>
       </main>
     </section>
     <section class="footer">

@@ -1,0 +1,39 @@
+.table {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  nav {
+    display: flex;
+    button {
+      margin-right: 0.2em;
+    }
+  }
+
+  table {
+    margin: 0.5em 0;
+    border-collapse: collapse;
+    border: 0.1em solid #bbb;
+    th,
+    td {
+      padding: 0.5em 1em;
+    }
+    thead {
+      background: #bbb;
+    }
+    tbody {
+      cursor: pointer;
+      tr {
+        &:nth-child(even) {
+          background: #eee;
+        }
+        &:hover {
+          background: #ddd;
+        }
+
+        &.selected {
+          background: #ccc;
+        }
+      }
+    }
+  }
+}

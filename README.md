@@ -29,7 +29,7 @@ Cigale is designed to have almost nothing to add. See the `test` directory to ha
 ### Layout
 
 ```html
-<body class="layout">
+<div class="layout">
   <section class="header">
     <header>
       <a href="index.html">
@@ -54,7 +54,7 @@ Cigale is designed to have almost nothing to add. See the `test` directory to ha
       <a href="legal.html">Legal stuff</a>
     </footer>
   </section>
-</body>
+</div>
 ```
 
 ### Button

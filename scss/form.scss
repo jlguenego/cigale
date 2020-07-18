@@ -22,48 +22,6 @@ form {
       font-weight: bold;
     }
 
-    input[type="checkbox"] {
-      position: relative;
-      display: flex;
-      width: 1.5em;
-      height: 1.5em;
-      margin-right: 0.5em;
-      &::before {
-        visibility: visible;
-        display: flex;
-        border: 0.1em solid black;
-
-        content: " ";
-        width: 1.5em;
-        height: 1.5em;
-      }
-      &::after {
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: inline-flex;
-        border-width: 0.25em;
-        border-style: solid;
-        border-color: black;
-        border-top: none;
-        border-right: none;
-        margin-right: 0.5em;
-        content: " ";
-        width: 0.6em;
-        height: 1em;
-        transform: translate(0.45em, 0.2em) rotate(-45deg);
-        visibility: hidden;
-      }
-
-      &:checked {
-        &::before {
-          background: #eee;
-        }
-        &::after {
-          visibility: visible;
-        }
-      }
-    }
   }
 
   a {

@@ -13,6 +13,10 @@ form {
       align-items: center;
     }
 
+    &:last-of-type {
+      margin-bottom: 2em;
+    }
+
     div {
       padding: 0 0 0.1em;
     }
@@ -21,11 +25,6 @@ form {
       height: 1em;
       font-weight: bold;
     }
-
-  }
-
-  a {
-    margin-top: 1em;
   }
 
   button {

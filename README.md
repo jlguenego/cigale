@@ -40,7 +40,7 @@ Cigale is designed to have almost nothing to add. See the `test` directory to ha
     </header>
   </section>
   <section class="main">
-    <main>
+    <main class="centered">
       <div class="tagline">
         <p>Cigale song is "csscsscss"</p>
         <a href="form.html">

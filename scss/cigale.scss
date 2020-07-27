@@ -8,36 +8,3 @@
 @use "./checkbox.scss";
 @use "./select.scss";
 @use "./table.scss";
-
-.separator {
-  position: relative;
-  height: 0;
-
-  border: 0.05em solid #eee;
-  margin: 1em 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  span {
-    position: absolute;
-    display: flex;
-    top: 0;
-    transform: translateY(-50%);
-    background: white;
-    padding: 0.2em 0.5em;
-    color: #ddd;
-  }
-}
-
-strong {
-  font-size: 1.5em;
-}
-
-.center {
-  text-align: center;
-}
-
-button.square {
-  width: 8em;
-  height: 8em;
-}

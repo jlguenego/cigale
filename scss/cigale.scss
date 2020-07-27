@@ -1,13 +1,13 @@
-@import "../node_modules/normalize.css/normalize.css";
-@import "./reset.scss";
-@import "./layout.scss";
-@import "./button.scss";
-@import "./headings.scss";
-@import "./form.scss";
-@import "./radio.scss";
-@import "./checkbox.scss";
-@import "./select.scss";
-@import "./table.scss";
+@use "../node_modules/normalize.css/normalize.css";
+@use "./reset.scss";
+@use "./layout.scss";
+@use "./button.scss";
+@use "./headings.scss";
+@use "./form.scss";
+@use "./radio.scss";
+@use "./checkbox.scss";
+@use "./select.scss";
+@use "./table.scss";
 
 .separator {
   position: relative;

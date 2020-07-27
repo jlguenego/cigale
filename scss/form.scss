@@ -41,6 +41,10 @@ input:not([type="checkbox"]):not([type="radio"]) {
   &::placeholder {
     color: #ddd;
   }
+
+  &[type="range"] {
+    padding: 0.5em 0;
+  }
 }
 
 input[type="color"] {
@@ -50,6 +54,3 @@ input[type="color"] {
   padding: 0.2em 1em;
 }
 
-input[type="range"] {
-  padding: 0.5em 0;
-}

@@ -52,10 +52,13 @@
       display: flex;
       flex-flow: column;
       align-items: center;
-      justify-content: center;
       width: 100%;
       max-width: 50em;
       padding: 0.5em;
+
+      &.centered {
+        justify-content: center;
+      }
 
       .tagline {
         display: flex;

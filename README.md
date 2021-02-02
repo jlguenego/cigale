@@ -1,8 +1,13 @@
-# Cigale
-
-Quick and effective UX simple black and white CSS design.
-
-Designed to be easily integrated with Angular/React/Vue projects.
+<div align="center">
+    <img width="200" height="200" src="test/assets/cigale.svg">
+  <h1>Cigale</h1>
+  <p>
+    Quick and effective UX simple black and white CSS design.
+  </p>
+  <p>
+    Designed to be easily integrated with Angular/React/Vue projects.
+  </p>
+</div>
 
 ## Install
 

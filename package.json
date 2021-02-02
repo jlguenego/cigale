@@ -16,9 +16,9 @@
   "license": "ISC",
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "sass": "^1.26.10"
+    "sass": "^1.32.6"
   },
   "devDependencies": {
-    "standard-version": "^8.0.2"
+    "standard-version": "^9.1.0"
   }
 }

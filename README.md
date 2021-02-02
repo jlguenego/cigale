@@ -2,6 +2,8 @@
 
 Quick and effective UX simple black and white CSS design.
 
+Designed to be easily integrated with Angular/React/Vue projects.
+
 ## Install
 
 ```
@@ -109,6 +111,10 @@ Use normalize.css
 ## SCSS
 
 The code is written is SCSS. So you can directly use the SCSS or the CSS compiled version.
+
+## Contributions
+
+Do not hesitate to bring your contributions.
 
 ## Author
 

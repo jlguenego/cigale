@@ -17,6 +17,17 @@
       width: 100%;
       max-width: 50em;
       padding: 0 0.5em;
+
+      a {
+        color: inherit;
+        text-decoration: inherit;
+        &:hover {
+          text-decoration: underline;
+        }
+        &:visited {
+          color: inherit;
+        }
+      }
     }
 
     header {
@@ -79,14 +90,6 @@
         display: flex;
         flex-flow: column;
       }
-    }
-  }
-
-  a {
-    color: inherit;
-    text-decoration: inherit;
-    &:hover {
-      text-decoration: underline;
     }
   }
 }

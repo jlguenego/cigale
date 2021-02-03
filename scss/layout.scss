@@ -74,6 +74,11 @@
           padding: 0.1em 1em;
         }
       }
+
+      article {
+        display: flex;
+        flex-flow: column;
+      }
     }
   }
 

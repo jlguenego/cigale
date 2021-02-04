@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/jlguenego/cigale/compare/v1.0.1...v1.0.2) (2021-02-04)
+
+
+### Bug Fixes
+
+* main layout ([9b74403](https://github.com/jlguenego/cigale/commit/9b74403c2c40fa06aa6c7a0b7b9aa15d474619f4))
+
 ### [1.0.1](https://github.com/jlguenego/cigale/compare/v1.0.0...v1.0.1) (2021-02-03)
 
 ## [1.0.0](https://github.com/jlguenego/cigale/compare/v0.0.6...v1.0.0) (2021-02-02)

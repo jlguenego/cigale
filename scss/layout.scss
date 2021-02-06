@@ -59,6 +59,12 @@
     display: flex;
     flex-flow: column;
 
+    .maxwidth {
+      width: 100%;
+      max-width: 50em;
+      margin: 0 auto;
+    }
+
     main {
       display: flex;
       flex-flow: column;

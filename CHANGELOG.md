@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/jlguenego/cigale/compare/v1.1.0...v1.1.1) (2021-02-06)
+
+
+### Bug Fixes
+
+* missing padding ([2af5479](https://github.com/jlguenego/cigale/commit/2af5479fc8b8bb0a840fac1411e7787a04d4d4c8))
+
 ## [1.1.0](https://github.com/jlguenego/cigale/compare/v1.0.2...v1.1.0) (2021-02-06)
 
 
